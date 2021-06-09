@@ -8,21 +8,33 @@ export default function(props){
     const data = [
         {
             src: "/images/banner2.png",
-            path: "#"
+            path: "#",
+            category: "Asuransi - Kesehatan",
+            title: "Cashback 100% Asuransi"
         },
         {
             src: "/images/banner2.png",
-            path: "#"
+            path: "#",
+            category: "Asuransi - Kesehatan",
+            title: "Cashback 100% Asuransi"
         },
         {
             src: "/images/banner2.png",
-            path: "#"
+            path: "#",
+            category: "Asuransi - Kesehatan",
+            title: "Cashback 100% Asuransi"
+        },
+        {
+            src: "/images/banner2.png",
+            path: "#",
+            category: "Asuransi - Kesehatan",
+            title: "Cashback 100% Asuransi"
         }
     ]
     return (
         <SectionWrapper>
             <h4>Rekomendasi Pilihan</h4>
-            <RecomendationCard />
+            <RecomendationCard data={data} />
         </SectionWrapper>
     );
 }

@@ -4,10 +4,10 @@ export default function(props){
     return (
         <div className="card">
             <div>
-                <img src="/images/banner2.png" />
+                <img src={props.src} />
             </div>
-            <p className="card-category">Asuransi - Kesehatan</p>
-            <h5>Cashback 100% Asuransi</h5>
+            <p className="card-category">{props.category}</p>
+            <h5>{props.title}</h5>
         </div>
     );
 }
