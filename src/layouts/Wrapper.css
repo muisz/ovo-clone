@@ -1,0 +1,42 @@
+.main-wrapper {
+    height: 100vh;
+    width: 470px;
+    margin: auto;
+    overflow-x: hidden;
+    background: #eaeaea;
+}
+.wrapper-none {
+    height: 80px;
+}
+.wrapper-footer {
+    width: 470px;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+.list-icon-nav {
+    list-style: none;
+    padding: 0px 15px;
+    text-align: center;
+}
+.list-icon-nav li {
+    display: inline-block;
+    margin: 0px 18px;
+}
+.box-icon-nav {
+    text-align: center;
+    width: 50px;
+}
+.box-icon-nav-active, .box-icon-nav:hover {
+    color: #5715c2;
+    font-weight: 600;
+}
+.text-nav {
+    font-size: 12px;
+}
+.section-wrapper {
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 0.5em;
+}

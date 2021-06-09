@@ -1,0 +1,26 @@
+.promo-wrapper {
+    height: 200px;
+    margin-top: 0.5em;
+    background-color: #fff;
+    padding: 15px;
+}
+.banners-wrapper {
+    height: 130px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+.banners {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+}
+.banners li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.banner img {
+    max-height: 130px;
+    max-width: 340px;
+    border-radius: 10px;
+}
