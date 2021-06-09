@@ -1,5 +1,4 @@
 .main-wrapper {
-    height: 100vh;
     width: 470px;
     margin: auto;
     overflow-x: hidden;
@@ -7,6 +6,11 @@
 }
 .wrapper-none {
     height: 80px;
+}
+.footer {
+    width: 470px;
+    height: 70px;
+    margin: auto;
 }
 .wrapper-footer {
     width: 470px;
