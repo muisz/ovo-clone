@@ -7,7 +7,7 @@ export default function(props){
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={Home} />
+                <Route path="/" component={Home} />
             </Switch>
         </BrowserRouter>
     );

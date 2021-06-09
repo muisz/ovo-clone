@@ -1,0 +1,29 @@
+.top-tab {
+    background-color: #5715c2;
+}
+.tab-title {
+    height: 50px;
+    color: #fff;
+    padding: 10px;
+}
+.tab-title h5 {
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.tabs {
+    margin-top: 0.5em;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.tab {
+    padding: 10px;
+}
+.tab-active {
+    border-bottom: 4px solid teal;
+}

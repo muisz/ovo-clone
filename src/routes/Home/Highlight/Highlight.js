@@ -24,7 +24,7 @@ export default function(props){
                 <Grid columns={3}>
                     <Grid.Row>
                         <Grid.Column>
-                            <Link to="#"><Icon name="plus square outline" size="large" />
+                            <Link to="/topup"><Icon name="plus square outline" size="large" />
                             <p>Top UP</p></Link>
                         </Grid.Column>
                         <Grid.Column>

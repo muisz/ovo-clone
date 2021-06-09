@@ -2,7 +2,7 @@
     width: 470px;
     margin: auto;
     overflow-x: hidden;
-    background: #eaeaea;
+    /* background: #eaeaea; */
 }
 .wrapper-none {
     height: 80px;
@@ -43,4 +43,8 @@
     padding: 15px;
     background-color: #fff;
     margin-top: 0.5em;
+}
+.section-w-mt {
+    padding: 15px;
+    background-color: #fff;
 }

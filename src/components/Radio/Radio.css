@@ -1,0 +1,10 @@
+.radio-label {
+    padding: 8px 15px;
+    border: 1px solid #dbd9d9;
+    border-radius: 50px;
+    font-size: 13px;
+}
+.radio-label-active {
+    color: #5715c2;
+    border: 1px solid #5715c2;
+}
